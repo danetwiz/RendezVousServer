@@ -16,6 +16,10 @@ IPTABLES=/sbin/iptables
 #network interface so destination knows what hope to insert for reply
 #(this machine behaves as router)
 
+#Replace this strings with the two interfaces of you want to tie together, once *should*
+#be the VPN tunnels virtual network interface.  you must use other code to open and keep this
+#tunnel alive.  If the tunnel fails, its ok, only reboot will require this script be rerun
+#This script in non-reboot-persistant
 WANIF='tun0'
 LANIF='eth0'
 
