@@ -1,2 +1,2 @@
 # RendezVousServer
-Securly bridge your entire home network to a remote server a remote client can join via openvpn without opening any ports or exposing IP of home network
+Securely bridge your entire home network to a remote (RendezVous) server you've created with an OpenVpn Connection.  Then, an OpenVPN authenticated remote client can join your home nework via a connection to this 'RendezVous' without opening any ports or exposing IP of your home network.  No additional configuration or port forwarding required.  Just run this script on a linux box which is 
